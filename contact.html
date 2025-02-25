@@ -1,0 +1,105 @@
+<!DOCTYPE html><!-- başlangıç: HTML belgesi -->
+<html lang="tr">
+
+<head><!-- başlangıç: Başlık bölümü -->
+    <meta charset="utf-8"><!-- Meta etiketleri, karakter kodlaması ve uyumluluk ayarları -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>İletişim</title><!-- Sayfa başlığı -->
+    <link rel="icon" href="img/icons/mercedes-icon.png" type="image/png"> <!-- Favicon, Mercedes logosu -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/tooplate-style.css"><!-- Stil dosyaları -->
+</head><!-- bitiş: Başlık bölümü -->
+
+<body><!-- başlangıç: Gövde bölümü -->
+    <div class="page-wrapper"><!-- başlangıç: Sayfa kapsayıcısı, footer'ı sabitlemek için -->
+        <div class="container-fluid"><!-- başlangıç: Ana içerik konteyneri -->
+            <div class="tm-body margin-b-50"><!-- başlangıç: Ana gövde bölümü -->
+                <div class="tm-sidebar sticky"><!-- başlangıç: Yan çubuk (sidebar) -->
+                    <section id="welcome" class="tm-content-box tm-banner margin-b-15"><!-- başlangıç: Hoş geldiniz bölümü -->
+                        <div class="tm-banner-inner">
+                            <img src="img/icons/mercedes-icon.png" alt="Logo" class="mercedes-icon margin-b-40"> <!-- Mercedes logosu -->
+                            <h1 class="tm-banner-title">Mercedes</h1>
+                            <img src="img/icons/formula-one-icon.png" alt="Formula One" class="formula-one-icon"> <!-- Formula 1 ikonu -->
+                        </div>
+                    </section><!-- bitiş: Hoş geldiniz bölümü -->
+                    <nav class="tm-main-nav"><!-- başlangıç: Ana navigasyon menüsü -->
+                        <ul class="tm-main-nav-ul">
+                            <li class="tm-nav-item"><a href="index.html" class="tm-nav-item-link tm-button">Galeri</a></li>
+                            <li class="tm-nav-item"><a href="timeline.html" class="tm-nav-item-link tm-button">Zaman Çizelgesi</a></li>
+                            <li class="tm-nav-item"><a href="about.html" class="tm-nav-item-link tm-button">Hakkında</a></li>
+                            <li class="tm-nav-item"><a href="contact.html" class="tm-nav-item-link tm-button active">İletişim</a></li>
+                        </ul>
+                    </nav><!-- bitiş: Ana navigasyon menüsü -->
+                </div><!-- bitiş: Yan çubuk (sidebar) -->
+
+                <div class="tm-main-content"><!-- başlangıç: Ana içerik bölümü -->
+                    <div class="tm-content-box tm-content-box-home"><!-- başlangıç: Hoş geldiniz görseli bölümü -->
+                        <img src="img/page-photos/1080x360-01.jpg" alt="Image" class="img-fluid tm-welcome-img">
+                    </div><!-- bitiş: Hoş geldiniz görseli bölümü -->
+                    <section id="contact" class="tm-content-box"><!-- başlangıç: İletişim formu bölümü -->
+                        <div class="row margin-b-50">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <h2 class="tm-section-title tm-blue-text">Bize Ulaşın</h2>
+                                <form action="#contact" method="post" class="contact-form">
+                                    <div class="form-group">
+                                        <input type="text" id="contact_name" name="contact_name" class="form-control"
+                                            placeholder="Ad" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" id="contact_email" name="contact_email" class="form-control"
+                                            placeholder="E-posta" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea id="contact_message" name="contact_message" class="form-control" rows="9"
+                                            placeholder="Mesaj" required></textarea>
+                                    </div>
+                                    <button type="submit"
+                                        class="btn btn-primary tm-button-rounded tm-button-gray tm-button-no-border tm-button-normal">Gönder</button>
+                                </form>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="tm-address-box">
+                                    <p>Morbi auctor euismod dictum. Morbi eu nibh in nulla interdum placerat. Donec
+                                        pellentesque est at sem aliquam hendrerit.</p>
+                                    <address>
+                                        <span class="tm-blue-text">Posta Adresi</span><br>
+                                        991 Curabitur molestie dui vel,<br>
+                                        metus iaculis suscipit 11900<br><br>
+                                        E-posta: <a class="tm-blue-text" href="mailto:info@company.com">info@company.com</a><br>
+                                        Tel: <a class="tm-black-text" href="tel:010-020-0120">010-020-0120</a><br>
+                                        Faks: <a class="tm-black-text" href="tel:090-080-0980">090-080-0980</a><br>
+                                    </address>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="tm-google-map">
+                                    <iframe
+                                        width="100%"
+                                        height="400"
+                                        frameborder="0"
+                                        style="border:0"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.317344682698!2d-0.220159684229873!3d51.51380217963618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760f9d8e3e4e5f%3A0x7e8b1e0b7d8e4e5f!2sMercedes-AMG%20Petronas%20Formula%20One%20Team!5e0!3m2!1str!2str!4v1610000000000"
+                                        allowfullscreen
+                                    ></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </section><!-- bitiş: İletişim formu bölümü -->
+                </div><!-- bitiş: Ana içerik bölümü -->
+            </div><!-- bitiş: Ana gövde bölümü -->
+        </div><!-- bitiş: Ana içerik konteyneri -->
+        <footer class="tm-footer text-center tm-bg-dark-gray"><!-- başlangıç: Footer bölümü -->
+            <p class="tm-footer-text">Telif Hakkı © <span class="tm-current-year">2025</span> Mercedes - Formula 1</p>
+        </footer><!-- bitiş: Footer bölümü -->
+    </div><!-- bitiş: Sayfa kapsayıcısı, footer'ı sabitlemek için -->
+
+    <script src="js/jquery-1.11.3.min.js"></script><!-- başlangıç: JavaScript dosyaları -->
+    <script src="js/contact.js"></script><!-- İletişim için özel JavaScript -->
+</body><!-- bitiş: Gövde bölümü -->
+
+</html><!-- bitiş: HTML belgesi -->
